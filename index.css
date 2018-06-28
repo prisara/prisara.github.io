@@ -145,15 +145,15 @@ h1:hover {
 }
 
 a:hover {
-  background-color: #d5ed83;
+  /* background-color: #d5ed83; */
   /* color: ; */
   font-style: italic;
 }
 
 span.highlight {
-  /*background-color: #8CBBD3;*/
+  background-color: #8CBBD3;
   /* background-color: #FDE3DC; */
-  background-color: #d5ed83;
+  /* background-color: #d5ed83; */
 }
 
 #pop {
