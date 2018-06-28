@@ -14,6 +14,7 @@ font-family: 'Crimson Text', serif;*/
 
 html {
   box-sizing: border-box;
+  /* background-color: #e8e8e5; */
 }
 
 *,
@@ -34,7 +35,8 @@ html {
 }
 
 .name {
-  font-family: 'Josefin Sans', sans-serif;
+  /* font-family: 'Josefin Sans', sans-serif; */
+  font-family: 'Lusitana', serif;
   font-size: 10px;
   /*position: fixed;*/
   margin-left: 50px;
@@ -43,7 +45,7 @@ html {
 
 .about {
   font-family: 'Lusitana', serif;
-  /*font-family: 'Crimson Text', serif;*/
+  /* font-family: 'Crimson Text', serif; */
   font-size: 30px;
   text-align: center;
 }
@@ -70,9 +72,18 @@ h3 {
   font-size: 15px;
 }
 
+h4 {
+  font-family: 'Lusitana', serif;
+  /*font-family: 'Crimson Text', serif;*/
+  font-size: 12px;
+}
+
 .folio {
   margin-left: 50px;
   margin-top: 88px;
+}
+
+.twopointo img {
 }
 
 .greenthumbs {
@@ -104,30 +115,60 @@ h3 {
 }*/
 
 .contact {
-  width: 90%;
-  background-color: #D1AC8A;
-  color: white;
-  /*font-family: 'Lusitana', serif;*/
-  font-family: 'Crimson Text', serif;
-  font-size: 20px;
+  /* width: 90%; */
+  /* background-color: #D1AC8A; */
+  /* color: white; */
+  color: black;
+  font-family: 'Lusitana', serif;
+  /* font-family: 'Crimson Text', serif; */
+  /* font-size: 20px; */
+  font-size: 15px;
   text-decoration: none;
   /*box-shadow: 1px 1px 3px #888;*/
   min-height: 250px;
   padding: 10px;
-  margin-left: 50px;
+  /* margin-left: 50px; */
+  margin-right: 100px;
+  float: right;
   margin-top: 88px;
+}
+
+h1:hover {
+    background-image: img src="assets/images/2217bbaa11bac5b6f2839f1405155420.jpg" height="50%" width="50%";
+    display: block;
 }
 
 .links a {
   text-decoration: none;
-  color: white;
+  /* color: white; */
+  color: black;
 }
 
 a:hover {
-  color: ;
+  /* background-color: #d5ed83; */
+  /* color: ; */
+  font-style: italic;
 }
 
 span.highlight {
   /*background-color: #8CBBD3;*/
-  background-color: #FDE3DC;
+  /* background-color: #FDE3DC; */
+  background-color: #d5ed83;
+}
+
+#pop {
+  height: 280px;
+  width: 470px;
+  position: fixed;
+  bottom: 50%;
+  right: 40%;
+  border: 2px solid;
+  padding: 10px;
+  background-color: #D1AC8A;
+}
+
+#minimize {
+  right: 5;
+  top: 5;
+  float: right;
 }

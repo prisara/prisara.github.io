@@ -7,14 +7,48 @@
   <link href="https://fonts.googleapis.com/css?family=Josefin+Sans|Julius+Sans+One|Open+Sans" rel="stylesheet">
   <link href="https://fonts.googleapis.com/css?family=Crimson+Text|Montserrat" rel="stylesheet">
   <script src="https://use.fontawesome.com/a4c61a2d43.js"></script>
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.1.0/css/all.css" integrity="sha384-lKuwvrZot6UHsBSfcMvOkWwlCMgc0TaWr+30HWe3a4ltaBwTZhyTEggF5tJv8tbt" crossorigin="anonymous">
   <link rel="stylesheet" href="https://cdn.rawgit.com/konpa/devicon/master/devicon.min.css">
   <link rel="stylesheet" type="text/css" href="index.css">
   <meta name=“viewport” content=“width=device-width, initial-scale=1.0”>
 </head>
 
 <body>
+  <!-- <div id="pop"> -->
+
+    <!-- <button onclick="openWin()">Create window</button>
+    <button onclick="resizeWin()">Resize window</button> -->
+
+    <!-- <button id="minimize" onclick="document.getElementById('pop').style.display='none'">-</button><br> -->
+    <!-- <h4><p>Hello, I'm a <u>designer</u> and <u>maker</u> turned <u><span class="highlight">full stack web developer</span></u>.</p></h4> -->
+    <!-- <h4> -->
+    <!-- <p> -->
+
+    <!-- I'm a <span class="highlight">designer and maker</span> - turned <span class="highlight">web developer</span> -  -->
+
+    <!-- With a passion for building beautiful, memorable things.<br/> -->
+    <!-- I am <b>creative</b>, <b>innovative</b> and <b>detail-oriented</b>, while my multi-disciplinary design background shows that I am <b>quick to adapt</b> and can <b>communicate</b> across different platforms.  As a junior web developer, I craft solutions that focus on <b>good user experience</b> and <b>thoughtful design</b>. -->
+    <!-- </p> -->
+    <!-- </h4> -->
+  <!-- </div> -->
+
+  <script>
+    var myWindow;
+
+    function openWin()
+    {
+      myWindow = window.open("","", "width=100,height=100");
+    }
+
+    function resizeWin()
+    {
+      myWindow.resizeTo(1,1);
+      myWindow.focus();
+    }
+  </script>
+
   <nav class="contents">
-    <h5>Contents</h5>
+    <!-- <h5>Contents</h5> -->
     <!-- <ul class="contents-list">
       <li class="contents-item">Home</li>
       <li class="contents-item">Work</li>
@@ -23,21 +57,26 @@
     </ul> -->
   </nav>
   <div class="name">
-    <h1>Armi Prisara</h1>
+    <!-- <h1>Armi Prisara</h1> -->
+    <h3>Armi Prisara</h3>
   </div>
   <div class="about">
     <p>Hello, I'm a <u>designer</u> and <u>maker</u> turned <u><span class="highlight">full stack web developer</span></u>.</p>
   </div>
   <div class="more">
     <p>
-    <!-- I'm a <span class="highlight">designer and maker</span> - turned <span class="highlight">web developer</span> -  -->
-    With a passion for intelligent and sustainable design.<br/>
-    I am <b>creative</b>, <b>innovative</b> and <b>detail-oriented</b>, while my multi-disciplinary design background shows that I am <b>quick to adapt</b> and can <b>communicate</b> across different platforms.  As a junior web developer, I craft solutions that capitalize on <b>good user experience</b> and <b>design</b>.
+    <!-- I'm a <span class="highlight">designer and maker</span> - turned <span class="highlight">web developer</span> - -->
+    With a passion for building beautiful, memorable things.<br/>
+    I am <b>creative</b>, <b>innovative</b> and <b>detail-oriented</b>, while my multi-disciplinary design background shows that I am <b>quick to adapt</b> and can <b>communicate</b> across different platforms.  As a junior web developer, I craft solutions that focus on <b>good user experience</b> and <b>thoughtful design</b>.
+    </p>
+    <p>
+    This website features a small selection of recent work, additional samples are available upon request.
     </p>
   </div>
   <div class="skills">
     <h3>Skills</h3>
     <i class="devicon-photoshop-plain"></i>
+    <i class="fas fa-gem" aria-hidden="true"></i>
     <i class="devicon-css3-plain"></i>
     <i class="devicon-html5-plain"></i>
     <i class="devicon-sass-original"></i>
@@ -46,15 +85,72 @@
     <i class="devicon-javascript-plain"></i>
     <i class="devicon-jquery-plain"></i>
     <i class="devicon-atom-original"></i>
-    <i class="fa fa-github-alt" aria-hidden="true"></i>
+    <!-- <i class="fas fa-github-alt" aria-hidden="true"></i> -->
+    <i class="fab fa-github-alt"></i>
     <!-- <i class="devicon-github-plain"></i> -->
     <!-- <i class="fa fa-code-fork" aria-hidden="true"></i> -->
     <i class="devicon-git-plain"></i>
+    <i class="devicon-wordpress-plain"></i>
   </div>
   <div class="folio">
     <h3>Work</h3>
+      <div class="rowearonline">
+        <h4>01 / 6</h4>
+        <a href="https://www.rowearonline.com/" target="_blank">
+          <!-- <img src="assets/images/rowearonline.jpg" height="50%" width="50%"> -->
+          <video autoplay="" muted="" loop="" class="" width="50%" height="50%"><source src="assets/images/ro.mp4" type="video/mp4"></video>
+        </a>
+        <!-- <h4>Rô</h4> -->
+        <h4>Client: Rô</h4>
+        <h4>Services: Web Design and Development, E-commerce</h4>
+        <!-- <h4>An e-commerce site.</h4> -->
+      </div>
+      <br>
+      <br>
+      <br>
+      <div class="twopointo">
+        <h4>02 / 6</h4>
+          <img src="assets/images/twopointo.jpg" height="50%" width="50%">
+          <img src="assets/images/twopointo2.jpg" height="50%" width="50%">
+        <!-- <h4>Two Point O</h4> -->
+        <h4>Client: Two Point O</h4>
+        <h4>Services: Web Design and Development, E-commerce via Shopify</h4>
+        <!-- <h4>An e-commerce site.</h4> -->
+      </div>
+      <br>
+      <br>
+      <br>
+      <div class="bodyparty">
+        <h4>03 / 6</h4>
+        <a href="https://www.bodypartythelabel.com/" target="_blank">
+          <video autoplay="" muted="" loop="" class="" width="50%" height="50%"><source src="assets/images/bodyparty2.mp4" type="video/mp4"></video>
+        </a>
+        <!-- <h4>Body Party</h4> -->
+        <h4>Client: Body Party</h4>
+        <h4>Services: Web Design and Development, E-commerce</h4>
+        <!-- <h4>An e-commerce site.</h4> -->
+      </div>
+      <br>
+      <br>
+      <br>
+      <div class="textileterrain">
+        <h4>04 / 6</h4>
+          <video autoplay="" muted="" loop="" class="" width="50%" height="50%"><source src="assets/images/textileterrain.mp4" type="video/mp4"></video>
+        </a>
+        <h4>Textile Terrain</h4>
+        <h4>A web application for mapping and archiving the textile heritage of the Philippines.</h4>
+      </div>
+      <br>
+      <br>
+      <br>
       <div class="greenthumbs">
-        <img src="https://s-media-cache-ak0.pinimg.com/564x/62/39/43/62394358c87b68c46d68a0bf9e063ca0.jpg">
+        <h4>05 / 6</h4>
+        <a href="https://thawing-dusk-56634.herokuapp.com/" target="_blank">
+          <!-- <img src="assets/images/greenthumbs.jpg" height="50%" width="50%"> -->
+          <video autoplay="" muted="" loop="" class="" width="50%" height="50%"><source src="assets/images/greenthumbs2.mp4" type="video/mp4"></video>
+        </a>
+        <h4>Greenthumbs</h4>
+        <h4>A sustainable community land sharing app.</h4>
         <i class="devicon-css3-plain"></i>
         <i class="devicon-html5-plain"></i>
         <i class="devicon-sass-original"></i>
@@ -62,9 +158,24 @@
         <i class="devicon-rails-plain"></i>
         <i class="devicon-javascript-plain"></i>
         <i class="devicon-jquery-plain"></i>
+        <!-- test image --> <!-- <img src="https://s-media-cache-ak0.pinimg.com/564x/62/39/43/62394358c87b68c46d68a0bf9e063ca0.jpg">
+        <i class="devicon-css3-plain"></i>
+        <i class="devicon-html5-plain"></i>
+        <i class="devicon-sass-original"></i>
+        <i class="devicon-ruby-plain"></i>
+        <i class="devicon-rails-plain"></i>
+        <i class="devicon-javascript-plain"></i>
+        <i class="devicon-jquery-plain"></i> -->
       </div>
+      <br>
+      <br>
+      <br>
       <div class="seatyourself">
-        <img src="https://s-media-cache-ak0.pinimg.com/564x/4e/26/b4/4e26b45051e9c38b0d3aa14083d6b2a1.jpg">
+        <h4>06 / 6</h4>
+        <img src="assets/images/seatyoself.jpg" height="50%" width="50%">
+        <!-- test image --> <!-- <img src="https://s-media-cache-ak0.pinimg.com/564x/4e/26/b4/4e26b45051e9c38b0d3aa14083d6b2a1.jpg"> -->
+        <h4>SeatYoSelf</h4>
+        <h4>A restaurant reservation booking app, that allows users to search for restaurants by cuisine, price, and location.</h4>
         <i class="devicon-css3-plain"></i>
         <i class="devicon-html5-plain"></i>
         <i class="devicon-sass-original"></i>
@@ -75,9 +186,14 @@
   <div class="contact">
     <h1>Say hello</h1>
     <footer class="links">
-        <i class="fa fa-paper-plane" aria-hidden="true"></i>
-        <a href="https://github.com/prisara"><i class="fa fa-github-alt" aria-hidden="true"></i></a>
-        <a href="https://ph.linkedin.com/in/prisara-morales"<i class="fa fa-linkedin" aria-hidden="true"></i></a>
+        <!-- <a href="mailto:prisaramorales@gmail.com"><i class="fa fa-paper-plane" aria-hidden="true"></i></a> -->
+        <a href="mailto:prisaramorales@gmail.com">Email</a><br/>
+        <!-- <a href="https://github.com/prisara" target="_blank"><i class="fa fa-github-alt" aria-hidden="true"></i></a> -->
+        <a href="https://github.com/prisara" target="_blank">Github</a><br/>
+        <!-- <a href="https://ph.linkedin.com/in/prisara-morales" target="_blank"><i class="fa fa-linkedin" aria-hidden="true"></i></a> -->
+        <a href="https://ph.linkedin.com/in/prisara-morales" target="_blank">Linked in</a><br/>
+        <a href="assets/PrisaraMorales_Resume.pdf" target="_blank">CV</a><br/>
+        <a href="https://www.instagram.com/ifelsestudio/" target="_blank">Instagram</a>
     </footer>
   </div>
 </body>
