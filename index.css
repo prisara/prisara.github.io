@@ -15,6 +15,10 @@ font-family: 'Crimson Text', serif;*/
 html {
   box-sizing: border-box;
   /* background-color: #e8e8e5; */
+  /* background-color: #f8f9f4; */
+  /* background-color: #1aa1ce; */
+  /* background-color: #f8f7f6; */
+  /* background-color: #896432; */
 }
 
 *,
@@ -37,7 +41,9 @@ html {
 .name {
   /* font-family: 'Josefin Sans', sans-serif; */
   font-family: 'Lusitana', serif;
+  /* font-family: 'Futura', sans-serif; */
   font-size: 10px;
+  /* color: #293475; */
   /*position: fixed;*/
   margin-left: 50px;
   margin-top: 88px;
@@ -46,13 +52,17 @@ html {
 .about {
   font-family: 'Lusitana', serif;
   /* font-family: 'Crimson Text', serif; */
+  /* font-family: 'Futura', sans-serif; */
   font-size: 30px;
+  /* color: #293475; */
   text-align: center;
 }
 
 .more {
   font-family: 'Lusitana', serif;
+  /* font-family: 'Futura', sans-serif; */
   font-size: 15px;
+  /* color: #293475; */
   text-align: justify;
   width: 30%;
   /*margin-left: 50px;*/
@@ -146,14 +156,17 @@ h1:hover {
 
 a:hover {
   /* background-color: #d5ed83; */
+  background-color: #d7f186;
+  /* background-color: #1584c5; */
   /* color: ; */
   font-style: italic;
 }
 
 span.highlight {
-  background-color: #8CBBD3;
+  /* background-color: #8CBBD3; */
   /* background-color: #FDE3DC; */
   /* background-color: #d5ed83; */
+  background-color: #d7f186;
 }
 
 #pop {
